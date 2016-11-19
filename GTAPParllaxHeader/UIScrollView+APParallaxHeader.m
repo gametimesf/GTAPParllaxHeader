@@ -6,7 +6,6 @@
 //
 
 #import "UIScrollView+APParallaxHeader.h"
-
 #import <QuartzCore/QuartzCore.h>
 
 static char contentOffsetContext;

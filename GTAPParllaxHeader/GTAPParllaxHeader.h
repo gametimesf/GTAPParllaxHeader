@@ -7,13 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIScrollView+APParallaxHeader.h"
 
 //! Project version number for GTAPParllaxHeader.
 FOUNDATION_EXPORT double GTAPParllaxHeaderVersionNumber;
 
 //! Project version string for GTAPParllaxHeader.
 FOUNDATION_EXPORT const unsigned char GTAPParllaxHeaderVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <GTAPParllaxHeader/PublicHeader.h>
-
 
