@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		368E18441DDFD8A70047C0D8 /* GTAPParllaxHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 368E18421DDFD8A70047C0D8 /* GTAPParllaxHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		368E184C1DDFD99B0047C0D8 /* UIScrollView+APParallaxHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 368E184A1DDFD99B0047C0D8 /* UIScrollView+APParallaxHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		368E184D1DDFD99B0047C0D8 /* UIScrollView+APParallaxHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 368E184B1DDFD99B0047C0D8 /* UIScrollView+APParallaxHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		368E183F1DDFD8A70047C0D8 /* GTAPParllaxHeader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GTAPParllaxHeader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		368E18421DDFD8A70047C0D8 /* GTAPParllaxHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTAPParllaxHeader.h; sourceTree = "<group>"; };
 		368E18431DDFD8A70047C0D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		368E184A1DDFD99B0047C0D8 /* UIScrollView+APParallaxHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+APParallaxHeader.h"; sourceTree = "<group>"; };
+		368E184B1DDFD99B0047C0D8 /* UIScrollView+APParallaxHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+APParallaxHeader.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				368E18421DDFD8A70047C0D8 /* GTAPParllaxHeader.h */,
+				368E184A1DDFD99B0047C0D8 /* UIScrollView+APParallaxHeader.h */,
+				368E184B1DDFD99B0047C0D8 /* UIScrollView+APParallaxHeader.m */,
 				368E18431DDFD8A70047C0D8 /* Info.plist */,
 			);
 			path = GTAPParllaxHeader;
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				368E18441DDFD8A70047C0D8 /* GTAPParllaxHeader.h in Headers */,
+				368E184C1DDFD99B0047C0D8 /* UIScrollView+APParallaxHeader.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				368E184D1DDFD99B0047C0D8 /* UIScrollView+APParallaxHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
